@@ -50,5 +50,5 @@ st.subheader('Prediction Probability')
 st.write(prediction_proba)
 
 #add image
-image = Image.open('sunrise.jpg')
-st.image(image, caption='Sunrise by the mountains')
+image = Image.open('iris flower.jpg')
+st.image(image, caption='Iris flower')
