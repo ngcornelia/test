@@ -48,3 +48,7 @@ st.write(iris.target_names[prediction])
 
 st.subheader('Prediction Probability')
 st.write(prediction_proba)
+
+#add image
+image = Image.open('sunrise.jpg')
+st.image(image, caption='Sunrise by the mountains')
