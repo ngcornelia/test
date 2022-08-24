@@ -49,6 +49,6 @@ st.write(iris.target_names[prediction])
 st.subheader('Prediction Probability')
 st.write(prediction_proba)
 
-#add image
+from PIL import Image
 image = Image.open('iris flower.jpg')
 st.image(image, caption='Iris flower')
