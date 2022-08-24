@@ -52,3 +52,8 @@ st.write(prediction_proba)
 from PIL import Image
 image = Image.open('iris flower.jpg')
 st.image(image, caption='Iris flower')
+
+if st.button('Complete final assignment'):
+     st.write('You did it!')
+ else:
+     st.write('Hooray!')
