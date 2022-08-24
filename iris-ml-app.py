@@ -51,7 +51,7 @@ st.write(prediction_proba)
 
 from PIL import Image
 image = Image.open('iris flower.jpg')
-st.image(image, caption='Iris flower')
+st.image(image, caption='image from https://www.pexels.com/photo/close-up-of-an-iris-flower-11709809/')
 
 agree = st.checkbox('Complete assignment')
 if agree:
